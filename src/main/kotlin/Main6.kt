@@ -6,8 +6,8 @@ listaDeFrutas.forEach { fruta -> println("Hoy voy a comerme una fruta nueva llam
 val caracteresDeFruta = listaDeFrutas.map { fruta-> fruta.length }
     println(caracteresDeFruta)
 
-val listaFltrada = caracteresDeFruta.filter { largoDeFruta-> largoDeFruta>5 }
-    println(listaFltrada)
+val listaFiltrada = caracteresDeFruta.filter { largoDeFruta-> largoDeFruta>5 }
+    println(listaFiltrada)
 
 
 }
