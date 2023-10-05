@@ -14,9 +14,9 @@ fun main(args: Array<String>) {
     val numerosEnReversa = numerosDeLoteria.reversed()
     println(numerosEnReversa)
 
-    val mensajesDeNumeros = numerosDeLoteria.map{ numero -> "Tu numero de loteria es $numero"}
+    val mensajesDeNumeros = numerosDeLoteria.map { numero -> "Tu numero de loteria es $numero" }
     println(mensajesDeNumeros)
-
-    val numerosFiltrados = numerosDeLoteria.filter { numero -> numero>50 }
+    val numerosFiltrados = numerosDeLoteria.filter { numero -> numero > 50 }
     println(numerosFiltrados)
+
 }
